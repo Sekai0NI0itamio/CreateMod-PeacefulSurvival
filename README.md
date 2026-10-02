@@ -14,8 +14,19 @@ Everything you need to join our Forge Create server.
 ## Step 1 — Download the mods
 
 Go to **[Releases](../../releases)** (right side of this page) and download
-**`client-mods-1.20.1-forge.zip`**, then unzip it — you'll get a `mods` folder
-with 27 `.jar` files inside.
+**`client-mods-1.20.1-forge-v101.zip`**, then unzip it — you'll get a `mods`
+folder with 29 `.jar` files inside.
+
+**Plus 4 FTB jars from CurseForge** (land claims — see below): download the
+latest **1.20.1 Forge** file from each of these pages and drop the jars into
+`mods` too:
+- [FTB Library (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
+- [FTB Teams (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
+- [FTB Chunks (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge)
+- [FTB Essentials (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials-forge)
+
+(They're CurseForge-only, so they can't be bundled in the zip. You need all
+four — the server runs them, and claims won't work without them on your side.)
 
 ## Step 2a — Official Minecraft Launcher
 
@@ -28,7 +39,8 @@ with 27 `.jar` files inside.
    - **Windows:** press `Win+R`, type `%appdata%\.minecraft`, Enter
    - **Mac:** Finder → Go → Go to Folder → `~/Library/Application Support/minecraft`
    - **Linux:** `~/.minecraft`
-4. Copy all 27 `.jar` files into the **`mods`** folder.
+4. Copy all **29** `.jar` files into the **`mods`** folder, plus the 4 FTB
+   jars from Step 1.
 5. Launch the game with the **forge** installation → Multiplayer → Add Server →
    paste the server address above → Join!
 
@@ -38,18 +50,29 @@ with 27 `.jar` files inside.
    pick version **47.4.10** → OK.
 2. Right-click the new instance → **Open → Minecraft folder** (or click
    **Folder** on the right side) → open the `minecraft` folder.
-3. Copy all 27 `.jar` files into the **`mods`** folder.
+3. Copy all **29** `.jar` files into the **`mods`** folder, plus the 4 FTB
+   jars from Step 1.
    (Alternative: select the instance → **Mods** → **Add File** for each jar.)
 4. Launch the instance → Multiplayer → Add Server → paste the address → Join!
 
-## Included mods (27)
+## Included mods (29 in the zip + 4 FTB from CurseForge)
 
 Create 6.0.8 + Metalwork, Renewable Brass, Renewable Netherite, Stones,
 Aquatic Ambitions, High Pressure, Ultimate Factory, Cobblestone, Goggles,
 Liquid Fuel, Ore Excavation, Fast Schematic Cannon, Schematic Checker,
 Train Perspective, Farmer's Delight, Storage Drawers, EnderChests,
 Building Wands, Big Contraptions, Trading Floor, JEI, Embeddium,
-FerriteCore (+ Architectury, Cloth Config, ShetiphianCore libraries).
+FerriteCore, Modern Shop, Create: Currency Shops
+(+ Architectury, Cloth Config, ShetiphianCore libraries,
++ FTB Library, FTB Teams, FTB Chunks, FTB Essentials from CurseForge).
+
+## Server commands (once you're in)
+
+- `/tpa <name>`, `/tpahere <name>`, `/home set`, `/home`, `/rtp`, `/warp`
+  (FTB Essentials) — set homes and teleport to friends
+- Open the FTB Chunks map (inventory screen button or keybind) to
+  **claim chunks** — claimed land is grief-proof (creepers can't break it)
+- `/shop` (Modern Shop) and Create Currency Shops for trading
 
 ## Notes
 
