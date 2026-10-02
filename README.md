@@ -14,19 +14,9 @@ Everything you need to join our Forge Create server.
 ## Step 1 — Download the mods
 
 Go to **[Releases](../../releases)** (right side of this page) and download
-**`client-mods-1.20.1-forge-v101.zip`**, then unzip it — you'll get a `mods`
-folder with 29 `.jar` files inside.
-
-**Plus 4 FTB jars from CurseForge** (land claims — see below): download the
-latest **1.20.1 Forge** file from each of these pages and drop the jars into
-`mods` too:
-- [FTB Library (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
-- [FTB Teams (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
-- [FTB Chunks (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge)
-- [FTB Essentials (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials-forge)
-
-(They're CurseForge-only, so they can't be bundled in the zip. You need all
-four — the server runs them, and claims won't work without them on your side.)
+**`client-mods-1.20.1-forge-v102.zip`**, then unzip it — you'll get a `mods`
+folder with 33 `.jar` files inside, including the FTB claim mods. Nothing
+else to download.
 
 ## Step 2a — Official Minecraft Launcher
 
@@ -55,7 +45,7 @@ four — the server runs them, and claims won't work without them on your side.)
    (Alternative: select the instance → **Mods** → **Add File** for each jar.)
 4. Launch the instance → Multiplayer → Add Server → paste the address → Join!
 
-## Included mods (29 in the zip + 4 FTB from CurseForge)
+## Included mods (33)
 
 Create 6.0.8 + Metalwork, Renewable Brass, Renewable Netherite, Stones,
 Aquatic Ambitions, High Pressure, Ultimate Factory, Cobblestone, Goggles,
@@ -64,7 +54,7 @@ Train Perspective, Farmer's Delight, Storage Drawers, EnderChests,
 Building Wands, Big Contraptions, Trading Floor, JEI, Embeddium,
 FerriteCore, Modern Shop, Create: Currency Shops
 (+ Architectury, Cloth Config, ShetiphianCore libraries,
-+ FTB Library, FTB Teams, FTB Chunks, FTB Essentials from CurseForge).
++ FTB Library, FTB Teams, FTB Chunks, FTB Essentials).
 
 ## Server commands (once you're in)
 
