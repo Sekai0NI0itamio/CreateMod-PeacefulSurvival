@@ -1,7 +1,7 @@
 # Installing the Peaceful Survival modpack
 
 You need **Minecraft: Java Edition 1.20.1**, **Forge 1.20.1-47.4.10**,
-**Java 17**, and the 66 mods from the
+**Java 17**, and the 67 mods from the
 [latest release](../../releases) (`client-mods-*.zip` — unzip it, you'll get
 a `mods` folder full of `.jar` files).
 
@@ -16,7 +16,7 @@ a `mods` folder full of `.jar` files).
    - **Windows:** press `Win+R`, type `%appdata%\.minecraft`, Enter
    - **Mac:** Finder → Go → Go to Folder → `~/Library/Application Support/minecraft`
    - **Linux:** `~/.minecraft`
-4. Copy all **66** `.jar` files into the **`mods`** folder.
+4. Copy all **67** `.jar` files into the **`mods`** folder.
 5. Launch with the **forge** installation → Multiplayer → Add Server →
    `survivalcreatemod.seedloaf.gg` → Join!
 
@@ -25,7 +25,7 @@ a `mods` folder full of `.jar` files).
 1. Prism Launcher → **Add Instance** → choose **1.20.1**, check **Forge**,
    pick version **47.4.10** → OK.
 2. Right-click the instance → **Folder** → open the `minecraft` folder.
-3. Copy all **66** `.jar` files into **`mods`**.
+3. Copy all **67** `.jar` files into **`mods`**.
    (Alternative: select the instance → **Mods** → **Add File** per jar.)
 4. Launch → Multiplayer → Add Server → `survivalcreatemod.seedloaf.gg` → Join!
 
