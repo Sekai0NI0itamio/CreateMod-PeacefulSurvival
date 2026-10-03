@@ -8,8 +8,8 @@ A peaceful, grief-free Create server on **Minecraft 1.20.1 + Forge**.
 
 1. **Get whitelisted first** (see below — no whitelist, no entry).
 2. **Install the mods:** download
-   [`client-mods-1.20.1-forge-v107.zip`](../../releases/tag/v1.0.6)
-   (46 jars) and drop them into your `mods` folder —
+   [`client-mods-1.20.1-forge-v107.zip`](../../releases/tag/v1.0.7)
+   (49 jars) and drop them into your `mods` folder —
    full instructions for the official launcher and Prism Launcher are in
    [INSTALL.md](INSTALL.md). You need Forge 1.20.1-47.4.10 and Java 17.
 3. Join `survivalcreatemod.seedloaf.gg`, then `/register <password> <password>`.
@@ -43,5 +43,5 @@ the whitelist entry — and the builds — are gone.
 ## Server owners
 
 The exact server-side pack is
-[`server-mods-1.20.1-forge-v106.zip`](../../releases/tag/v1.0.6)
-(51 jars) — same release as the client pack.
+[`server-mods-1.20.1-forge-v107.zip`](../../releases/tag/v1.0.7)
+(53 jars) — same release as the client pack.
