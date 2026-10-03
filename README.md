@@ -1,73 +1,47 @@
-# 🚂 Minimal Create Server — Modpack 1.20.1
+# 🕊️ Peaceful Survival — Create Mod Server
 
-Everything you need to join our Forge Create server.
+A peaceful, grief-free Create server on **Minecraft 1.20.1 + Forge**.
 
-## Requirements
+**Server address:** `survivalcreatemod.seedloaf.gg`
 
-| Thing | Version |
-|---|---|
-| Minecraft | **1.20.1** (Java Edition) |
-| Mod loader | **Forge 1.20.1-47.4.10** |
-| Java | **17** (the official launcher and Prism install this automatically) |
-| Server address | `YOUR-SERVER.seedloaf.gg` ← replace with the real address |
+## How to join (3 steps)
 
-## Step 1 — Download the mods
+1. **Get whitelisted first** (see below — no whitelist, no entry).
+2. **Install the mods:** download
+   [`client-mods-1.20.1-forge-v106.zip`](../../releases/tag/v1.0.6)
+   (46 jars) and drop them into your `mods` folder —
+   full instructions for the official launcher and Prism Launcher are in
+   [INSTALL.md](INSTALL.md). You need Forge 1.20.1-47.4.10 and Java 17.
+3. Join `survivalcreatemod.seedloaf.gg`, then `/register <password> <password>`.
+   Every visit after that: `/login <password>`.
 
-Go to **[Releases](../../releases)** (right side of this page) and download
-**`client-mods-1.20.1-forge-v106.zip`**, then unzip it — you'll get a `mods`
-folder with 46 `.jar` files inside, including the FTB claim mods. Nothing
-else to download.
+## 🛡️ Get whitelisted
 
-## Step 2a — Official Minecraft Launcher
+This is a peaceful server — strangers can't just walk in. To join, **prove
+you're peaceful**:
 
-1. Download the Forge installer for **1.20.1-47.4.10** from
-   [files.minecraftforge.net](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
-   and run it (choose **Install client**).
-2. Open the Minecraft Launcher, select the new **forge** installation, and
-   run it once so the `mods` folder is created. Close the game.
-3. Open the game folder:
-   - **Windows:** press `Win+R`, type `%appdata%\.minecraft`, Enter
-   - **Mac:** Finder → Go → Go to Folder → `~/Library/Application Support/minecraft`
-   - **Linux:** `~/.minecraft`
-4. Copy all **46** `.jar` files into the **`mods`** folder.
-5. Launch the game with the **forge** installation → Multiplayer → Add Server →
-   paste the server address above → Join!
+- **Option A — open a request here:** click
+  [New whitelist request](../../issues/new?template=whitelist-request.md),
+  tell us your exact Minecraft username, who invited you (if anyone), and a
+  few lines about how you play (builds you love, what "peaceful" means to
+  you). An admin adds you, usually within a day.
+- **Option B — email:** write to `YOUR-EMAIL-HERE` with the same info
+  (username + how you play). Same deal.
 
-## Step 2b — Prism Launcher
+One account per person, unique usernames only (offline-mode server: two
+people with the same name kick each other). Steal, grief, or harass once and
+the whitelist entry — and the builds — are gone.
 
-1. Prism Launcher → **Add Instance** → choose **1.20.1**, check **Forge**,
-   pick version **47.4.10** → OK.
-2. Right-click the new instance → **Open → Minecraft folder** (or click
-   **Folder** on the right side) → open the `minecraft` folder.
-3. Copy all **46** `.jar` files into the **`mods`** folder.
-   (Alternative: select the instance → **Mods** → **Add File** for each jar.)
-4. Launch the instance → Multiplayer → Add Server → paste the address → Join!
+## Server features
 
-## Included mods (46)
+- Land claims (FTB Chunks) — claim your base, it's creeper-proof
+- `/sethome`, `/home`, `/tpa`, `/rtp`, `/warp`
+- `/skin <premium-name>` — wear any paid account's skin
+- `/namecolour <color>` — your name, your color
+- Player shops, Create contraptions welcome, pre-generated world
 
-Create 6.0.8 + Metalwork, Renewable Brass, Renewable Netherite, Stones,
-Aquatic Ambitions, High Pressure, Ultimate Factory, Cobblestone, Goggles,
-Liquid Fuel, Ore Excavation, Fast Schematic Cannon, Schematic Checker,
-Train Perspective, Farmer's Delight, Storage Drawers, EnderChests,
-Building Wands, Big Contraptions, Trading Floor, JEI, Embeddium,
-FerriteCore, Modern Shop, Create: Currency Shops
-(+ Architectury, Cloth Config, ShetiphianCore libraries,
-+ FTB Library, FTB Teams, FTB Chunks, FTB Essentials).
+## Server owners
 
-## Server commands (once you're in)
-
-- `/tpa <name>`, `/tpahere <name>`, `/home set`, `/home`, `/rtp`, `/warp`
-  (FTB Essentials) — set homes and teleport to friends
-- Open the FTB Chunks map (inventory screen button or keybind) to
-  **claim chunks** — claimed land is grief-proof (creepers can't break it)
-- `/shop` (Modern Shop) and Create Currency Shops for trading
-
-## Notes
-
-- ⚠️ If you play without a paid Minecraft account (offline mode), pick a
-  **unique username** — two players with the same name kick each other.
-- Everyone must use the **exact same mod files** — if you can't join, you
-  probably have an extra, missing, or outdated jar. Re-download the zip.
-- Optional performance boost (not required): add
-  [ModernFix](https://modrinth.com/mod/modernfix) (Forge 1.20.1) to your
-  `mods` folder too.
+The exact server-side pack is
+[`server-mods-1.20.1-forge-v106.zip`](../../releases/tag/v1.0.6)
+(51 jars) — same release as the client pack.
