@@ -20,18 +20,35 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           mkdir -p work && cd work
           gh release download "${{ github.event.release.tag_name }}" \
             --repo "${{ github.repository }}" \
             --pattern 'client-mods-*.zip'
-          unzip -q client-mods-*.zip
+          ZIP=$(ls client-mods-*.zip | head -1)
+          SIZE=$(stat -c%s "$ZIP")
+          echo "client zip: $ZIP ($SIZE bytes)"
+          if [ "$SIZE" -lt 10000000 ]; then
+            echo "ERROR: client zip suspiciously small, aborting" >&2
+            exit 1
+          fi
+          unzip -q "$ZIP"
+          test -d minecraft/mods
+          JARS=$(ls minecraft/mods/*.jar | wc -l)
+          echo "jars: $JARS"
+          if [ "$JARS" -lt 30 ]; then
+            echo "ERROR: too few jars ($JARS), aborting" >&2
+            exit 1
+          fi
       - name: Wrap as Prism instance
         run: |
+          set -euo pipefail
           cd work
           cp ../instance/instance.cfg .
           cp ../instance/mmc-pack.json .
           zip -qr -X "../PeacefulSurvival-${{ github.event.release.tag_name }}.zip" \
             instance.cfg mmc-pack.json minecraft
+          unzip -l "../PeacefulSurvival-${{ github.event.release.tag_name }}.zip" | head -5
       - name: Attach to release
         env:
           GH_TOKEN: ${{ github.token }}
