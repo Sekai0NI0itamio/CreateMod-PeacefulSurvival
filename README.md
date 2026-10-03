@@ -14,8 +14,8 @@ Everything you need to join our Forge Create server.
 ## Step 1 — Download the mods
 
 Go to **[Releases](../../releases)** (right side of this page) and download
-**`client-mods-1.20.1-forge-v105.zip`**, then unzip it — you'll get a `mods`
-folder with 44 `.jar` files inside, including the FTB claim mods. Nothing
+**`client-mods-1.20.1-forge-v106.zip`**, then unzip it — you'll get a `mods`
+folder with 46 `.jar` files inside, including the FTB claim mods. Nothing
 else to download.
 
 ## Step 2a — Official Minecraft Launcher
@@ -29,7 +29,7 @@ else to download.
    - **Windows:** press `Win+R`, type `%appdata%\.minecraft`, Enter
    - **Mac:** Finder → Go → Go to Folder → `~/Library/Application Support/minecraft`
    - **Linux:** `~/.minecraft`
-4. Copy all **44** `.jar` files into the **`mods`** folder.
+4. Copy all **46** `.jar` files into the **`mods`** folder.
 5. Launch the game with the **forge** installation → Multiplayer → Add Server →
    paste the server address above → Join!
 
@@ -39,11 +39,11 @@ else to download.
    pick version **47.4.10** → OK.
 2. Right-click the new instance → **Open → Minecraft folder** (or click
    **Folder** on the right side) → open the `minecraft` folder.
-3. Copy all **44** `.jar` files into the **`mods`** folder.
+3. Copy all **46** `.jar` files into the **`mods`** folder.
    (Alternative: select the instance → **Mods** → **Add File** for each jar.)
 4. Launch the instance → Multiplayer → Add Server → paste the address → Join!
 
-## Included mods (44)
+## Included mods (46)
 
 Create 6.0.8 + Metalwork, Renewable Brass, Renewable Netherite, Stones,
 Aquatic Ambitions, High Pressure, Ultimate Factory, Cobblestone, Goggles,
