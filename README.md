@@ -9,8 +9,8 @@ A peaceful, grief-free Create server on **Minecraft 1.20.1 + Forge**.
 1. **Get whitelisted first** (see below — no whitelist, no entry).
 2. **Install the mods** — pick whichever fits:
    - **Never played modded / no launcher?** Download
-     [`PrismLauncher-macOS.zip`](../../releases/tag/v1.0.8) (the launcher
-     itself) and [`PeacefulSurvival-v108.zip`](../../releases/tag/v1.0.8)
+     [`PrismLauncher-macOS.zip`](../../releases/tag/v1.0.7) (the launcher
+     itself) and [`PeacefulSurvival-v108.zip`](../../releases/tag/v1.0.7)
      (the whole game instance, mods included). Open Prism Launcher →
      **Add Instance → Import** → pick the zip → launch. Done.
    - **Already have a launcher?** Grab
