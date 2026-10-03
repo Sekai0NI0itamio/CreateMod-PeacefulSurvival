@@ -7,11 +7,17 @@ A peaceful, grief-free Create server on **Minecraft 1.20.1 + Forge**.
 ## How to join (3 steps)
 
 1. **Get whitelisted first** (see below — no whitelist, no entry).
-2. **Install the mods:** download
-   [`client-mods-1.20.1-forge-v107.zip`](../../releases/tag/v1.0.7)
-   (49 jars) and drop them into your `mods` folder —
-   full instructions for the official launcher and Prism Launcher are in
-   [INSTALL.md](INSTALL.md). You need Forge 1.20.1-47.4.10 and Java 17.
+2. **Install the mods** — pick whichever fits:
+   - **Never played modded / no launcher?** Download
+     [`PrismLauncher-macOS.zip`](../../releases/tag/v1.0.8) (the launcher
+     itself) and [`PeacefulSurvival-v108.zip`](../../releases/tag/v1.0.8)
+     (the whole game instance, mods included). Open Prism Launcher →
+     **Add Instance → Import** → pick the zip → launch. Done.
+   - **Already have a launcher?** Grab
+     [`client-mods-1.20.1-forge-v107.zip`](../../releases/tag/v1.0.7)
+     (49 jars) and drop them into `mods` — step-by-step for the official
+     launcher and Prism in [INSTALL.md](INSTALL.md). Forge 1.20.1-47.4.10,
+     Java 17.
 3. Join `survivalcreatemod.seedloaf.gg`, then `/register <password> <password>`.
    Every visit after that: `/login <password>`.
 

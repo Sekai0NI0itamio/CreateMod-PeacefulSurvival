@@ -1,0 +1,41 @@
+name: build-instance
+
+# Runs whenever a modpack release is published (or manually): wraps the
+# release's client-mods zip into a Prism Launcher importable instance zip
+# and attaches it to the same release. This keeps the instance pack in lock
+# step with the mods on every update with zero manual work.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  instance:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download client mods from this release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p work && cd work
+          gh release download "${{ github.event.release.tag_name }}" \
+            --repo "${{ github.repository }}" \
+            --pattern 'client-mods-*.zip'
+          unzip -q client-mods-*.zip
+      - name: Wrap as Prism instance
+        run: |
+          cd work
+          cp ../instance/instance.cfg .
+          cp ../instance/mmc-pack.json .
+          zip -qr -X "../PeacefulSurvival-${{ github.event.release.tag_name }}.zip" \
+            instance.cfg mmc-pack.json minecraft
+      - name: Attach to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "${{ github.event.release.tag_name }}" \
+            "PeacefulSurvival-${{ github.event.release.tag_name }}.zip" \
+            --repo "${{ github.repository }}" --clobber
