@@ -50,4 +50,4 @@ the whitelist entry — and the builds — are gone.
 
 The exact server-side pack is
 [`server-mods-1.20.1-forge-v109.zip`](../../releases/tag/v1.0.9)
-(52 jars) — same release as the client pack.
+(53 jars) — same release as the client pack.
